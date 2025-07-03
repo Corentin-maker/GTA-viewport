@@ -20,7 +20,7 @@ to
 }
 }
     
-h1, h2 
+h1, h2, p
 {
     font-size: 48px;
     text-shadow:
@@ -62,4 +62,27 @@ html, body
 canvas 
 {
     display: block;
+}
+
+input, button 
+{
+    background-color: black;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    font-family: "Courier New", monospace;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+input:focus 
+{
+    outline: none;
+    box-shadow: 0 0 20px #00ff00;
+}
+
+#message 
+{
+    margin-top: 15px;
 }
