@@ -13,6 +13,8 @@ function verifier() {
     document.getElementById("message").textContent = "🚫";
   } else if (nombre === cible) {
     document.getElementById("message").textContent = `✅`;
+    window.location.href = "prepa2.html";
+
   } else {
     document.getElementById("message").textContent = `❌`;
   }

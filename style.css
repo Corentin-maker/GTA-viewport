@@ -20,9 +20,19 @@ to
 }
 }
     
-h1, h2, p
+h1, h2
 {
     font-size: 48px;
+    text-shadow:
+    0 0 5px #00ff00,
+    0 0 10px #00ff00,
+    0 0 20px #00ff00;
+    animation: glow 1s infinite alternate;
+}
+
+p
+{
+    font-size: 30px;
     text-shadow:
     0 0 5px #00ff00,
     0 0 10px #00ff00,
